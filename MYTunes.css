@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style:none;
+    box-sizing: border-box;
+}
+body{
+    font-family:Montserrat;
+}
+nav{
+    background:#333 ;
+    width: 100%;
+    height: 50px;
+
+}
+label.logo{
+    color:white;
+    font-size: 35px;
+    line-height: 50px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul {
+    float:right;
+    margin-right: 20px;
+
+}
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 5px;
+}
+nav ul li a {
+    color:white;
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: #4e4747;
+    transform: .5s;
+ }
+.musicfrist {
+    width:100%;
+    height:90vh;
+    background-image: url(https://64412034c408411063501ba3--jocular-churros-e34488.netlify.app/img/showcase.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #f8f7f7;
+}
+.musicfrist h1 {
+    text-align: center;
+    font-size: 40px;
+    padding-top:80px ;
+}
+.musicfrist h5 {
+    text-align: center;
+    font-size: 20px;
+    padding-top:40px ;
+
+
+}
+.music-sec{
+    width: 100%;
+    height: 155vh;
+    background-color: #545353;
+}
+.music-sec h1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+.music-sec h2 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.music-sec p {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+.batn {
+    text-align: center;
+}
+
+
+
+
+
+.batn input {
+   font-size: 30px;
+    padding: 10px 10px;
+    background: rgb(193, 1, 1);
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 3px;
+    color: white;
+}
+
+.music-thrd {
+    margin-top: 40px;
+    width: 100%;
+    height: 155vh;
+    background-color: #dbdbdb;
+}
+
+
+.music-thrd h1 {
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 20px;
+}
+.music-thrd p {
+    text-align: justify;
+    margin: 20px;
+}
+
+.music-thrd img {
+    width: 100%;
+}
+.batn-2 {
+  
+    text-align: center;
+    padding: 10px 10px;
+
+
+}
+.batn-2 input {
+    font-size: 40px;
+    box-shadow: 2px 1px 1px gray;
+    background: #033167;
+    color: #f8f7f7;
+}
+.music-four {
+    margin-top: 350px;
+}
+.music-four{
+
+    width: 100%;
+    height: 60vh;
+    background-image: url(https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 10px;
+}
+.music-four h1{
+   padding-top: 100px;
+   text-align: center;
+   font-size: 35px;
+
+}
+.music-four p {
+   text-align: center;
+   padding-top: 30px;
+   font-size: 25px;
+
+}
+.music-five img {
+    float: left;
+}
+.music-five h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+.music-five p {
+    text-align: center;
+text-align: justify;
+margin-right: 80px;
+font-size: 20px;
+
+
+}
+.music-five a {
+    font-size: 20px;
+}
+.end-bar{
+   
+    margin-top: 120px;
+    display:grid;
+    row-gap: 10px;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    justify-content: space-around;
+    background: #333;
+    color:white
+}
+.end-bar div {
+    font-size: 20px;
+    margin-left: 40px;
+    padding-top: 10px;
+   
+    
+}
+.line {
+    border-bottom: solid 1px #fdf8f8;
+
+}
+.botbar {
+    width: 100%;
+    height: 40px;
+    background: #545353;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 100;
+}
